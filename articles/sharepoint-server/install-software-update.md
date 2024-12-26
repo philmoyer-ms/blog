@@ -49,7 +49,7 @@ Microsoft 365 の SharePoint Online は対象外となりますのでご注意�
 ![](./install-software-update/CU-example03.png)
 
 
-## Sharepoint Server 製品の更新プログラム適用手順 
+## SharePoint Server 製品の更新プログラム適用手順 
 下記は、オンプレミスの SharePoint Server 製品における一般的な適用手順です。
 
 更新プログラム適用時のベスト プラクティスについては、弊社エンジニアの下記 Blog 記事をご参照ください。
