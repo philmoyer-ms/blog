@@ -15,15 +15,15 @@ Microsoft 365 の SharePoint Online は対象外となりますのでご注意�
 <!-- more -->
 
 ## 目次
-- [SharePoint Server 製品の更新プログラムについて](#sharepoint-server-製品の更新プログラムについて)
-- [SharePoint Server 製品の更新プログラム適用手順](#sharepoint-server-製品の更新プログラム適用手順)
+- [SharePoint Server 製品の更新プログラムについて](https://jpspsupport.github.io/blog/sharepoint-server/install-software-update/#SharePoint-Server-%E8%A3%BD%E5%93%81%E3%81%AE%E6%9B%B4%E6%96%B0%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
+- [SharePoint Server 製品の更新プログラム適用手順](https://jpspsupport.github.io/blog/sharepoint-server/install-software-update/#SharePoint-Server-%E8%A3%BD%E5%93%81%E3%81%AE%E6%9B%B4%E6%96%B0%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E9%81%A9%E7%94%A8%E6%89%8B%E9%A0%86)
   - [1. 更新プログラムのダウンロード](#1-更新プログラムのダウンロード)
   - [2. 更新プログラムのインストール](#2-更新プログラムのインストール)
-  - [3. SharePoint Server 製品構成ウィザードの実行](#3-sharepoint-server-製品構成ウィザードの実行)
-  - [4.適用の確認](#4-適用の確認)
+  - [3. SharePoint 製品構成ウィザードの実行](#3-sharepoint-製品構成ウィザードの実行)
+  - [4. 適用の確認](#4-適用の確認)
 
 
-## SharePoint Server 製品の更新プログラムについて
+## sharepoint server 製品の更新プログラムについて
 毎月発行される SharePoint Server の更新プログラムは、累積的な更新プログラムです。
 具体的には、ある月における SharePoint Server の更新プログラムには、それ以前の更新プログラムでリリースされた脆弱性の対応や不具合の修正も含まれています。そのため、過去の修正内容を適用するために過去の更新プログラムを適用する必要はありませんし、インストールされている更新プログラムより古いものは適用できないようになっています。 
 
@@ -49,7 +49,7 @@ Microsoft 365 の SharePoint Online は対象外となりますのでご注意�
 ![](./install-software-update/CU-example03.png)
 
 
-## SharePoint Server 製品の更新プログラム適用手順 
+## Sharepoint Server 製品の更新プログラム適用手順 
 下記は、オンプレミスの SharePoint Server 製品における一般的な適用手順です。
 
 更新プログラム適用時のベスト プラクティスについては、弊社エンジニアの下記 Blog 記事をご参照ください。
@@ -101,7 +101,7 @@ Microsoft 365 の SharePoint Online は対象外となりますのでご注意�
 >    - 弊社エンジニアの下記 Blog 記事にて、インストール時間を短縮するスクリプトをご紹介しています。<br>参照 : [Solving the extended install time for SPSE CUs – Stefan Goßner](https://blog.stefan-gossner.com/2024/03/08/solving-the-extended-install-time-for-spse-cus/)
 
   
-### 3. SharePoint Server 製品構成ウィザードの実行 
+### 3. SharePoint 製品構成ウィザードの実行 
 SharePoint 製品構成ウィザードの実行は、すべての SharePoint サーバーに更新プログラムをインストールした後に実施してください。SharePoint 製品構成ウィザードの実行は、以下の順番での実施を推奨します。
 - SharePoint サーバーの全体管理 Web サイトをホストするアプリケーション サーバー
 - 他のアプリケーション サーバー (アプリケーション、分散キャッシュ、検索、カスタム)
