@@ -1,6 +1,6 @@
 ---
 title: SharePoint Server の更新プログラムの適用方法について
-date: 2024-12-27
+date: 2024-12-26
 tags:
   - SharePoint Server
 ---
