@@ -9,6 +9,8 @@ tags:
 
 本記事では、SharePoint Online 上に保存された PDF ファイルを閲覧した場合に、Microsoft Purview の監査ログに記録されるアクティビティについて説明します。
 
+<!-- more -->
+
 ## 監査ログの概要
 
 SharePoint Online 上でファイルを閲覧 (情報パネルのプレビュー表示を含む) またはダウンロードした場合、その結果、Microsoft Purview の監査ログにアクティビティが記録されます。  
